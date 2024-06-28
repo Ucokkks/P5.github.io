@@ -22,10 +22,10 @@
             </div>
 <div class="pr-5">
     <ul class="flex space-x-4">
-        <li><a href="#" class="medium-text text-sm">Listing</a></li>
-        <li><a href="#" class="medium-text text-sm">Blog</a></li>
-        <li><a href="#" class="medium-text text-sm">Page</a></li>
-        <li><a href="#" class="medium-text text-sm">Contact</a></li>
+        <li><a href="#2" class="medium-text text-sm">List</a></li>
+        <li><a href="#1" class="medium-text text-sm">Rekomendasi</a></li>
+        <li><a href="#3" class="medium-text text-sm">Partner</a></li>
+        <li><a href="#4" class="medium-text text-sm">Contact</a></li>
     </ul>
 </div>
 <?php if (isset($_SESSION['user_id'])): ?>
@@ -63,7 +63,7 @@
         </div>
     </section>
 
-    <section class="mt-32 mb-20">
+    <section class="mt-32 mb-20" id="2">
         <div class="flex flex-col justify-center items-center">
             <h2 class="text-3xl medium-text ">Kategori Fitur</h2>
             <p class="text-sm font-medium mt-2">Menyediakan Berbagai Jenis Pilihan</p>
@@ -92,7 +92,7 @@
         </div>
     </section>
 
-<section class="mt-32">
+<section class="mt-32" id="1">
     <div class="w-full max-w-[90%] mx-auto mx-auto bg-[#F9F9F9] h-[600px] rounded-xl">
         <div class="flex flex-col justify-center items-center pt-24">
             <h2 class="text-3xl medium-text">Rumah Untukmu</h2>
@@ -142,7 +142,7 @@
 </section>
 
 
-    <section class="mt-32">
+    <section class="mt-32" id="3">
         <div class="w-full max-w-[90%] mx-auto bg-[#000000] h-[200px] rounded-lg">
             <div>
                 <p class="text-white flex flex-col justify-center items-center pt-24 font-normal">Kami Bekerja Sama Dengan</p>
@@ -158,7 +158,7 @@
         </div>
     </section>
 
-    <footer class="mt-10 bg-gray-200 py-6">
+    <footer class="mt-10 bg-gray-200 py-6" id="4">
     <div class="text-center">
         <p class="text-gray-600">© 2024 Len House. All rights reserved.</p>
     </div>
